@@ -34,7 +34,7 @@ class _SpookyItemState extends State<SpookyItem> with SingleTickerProviderStateM
     // Random movement animation
     _animation = Tween<Offset>(
       begin: Offset.zero,
-      end: Offset(_random.nextDouble() * 0.2 - 0.1, _random.nextDouble() * 0.2 - 0.1),
+      end: Offset(_random.nextDouble() * 2 - 0.1, _random.nextDouble() * 2 - 0.1),
     ).animate(_controller);
   }
 

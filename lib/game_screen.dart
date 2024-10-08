@@ -80,6 +80,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 97, 25, 211),
       body: Stack(
         children: _spookyItems,
       ),
